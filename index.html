@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
     <title>JavaScript Sten, sax, påse</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div>
+            <div class="points">
+                <h1>Your points= <span class="your-points"></span></h1>
+                <h1>Bot points= <span class="bot-points"></span></h1>
+            </div>
+            <button onclick="selectRock()" class="rock button">Rock</button>
+            <button onclick="selectScissors()" class="scissors button">Scissors</button>
+            <button onclick="selectPaper()" class="paper button"> Paper</button>
+        </div>
+        <h1 class="youDecided">You decided <span class="you span"></span></h1>
+        <h1 class="botDecided">Bot decided <span class="bot span"></span></h1>
+        <h1 class="won">You won!</h1>
+        <h1 class="lost">You lost!</h1>
+        <h1 class="tied">You tied!</h1>
+    </div>
 </body>
+
 </html>
